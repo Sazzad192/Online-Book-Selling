@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+This is group project. In this project we are creating a online book selling stroe. Total 5 person are collaborating with this project.
+
+Here is Project Live link:
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
