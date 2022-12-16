@@ -1,24 +1,11 @@
 import React from 'react';
-import { Button } from '@material-ui/core';
 
 
 const Home = () => {
     return (
-        <div className="App">
-      <Button className='bg-black' variant="contained">Default</Button>
-      <Button variant="contained" color="primary">
-        Primary
-      </Button>
-      <Button variant="contained" color="secondary">
-        Secondary
-      </Button>
-      <Button variant="contained" disabled>
-        Disabled
-      </Button>
-      <Button variant="contained" color="primary" href="#contained-buttons">
-        Link
-      </Button>
-    </div>
+        <div>
+            <button type="button" className="px-8 py-3 font-semibold rounded bg-red-400 dark:text-gray-800">Basic</button>
+        </div>
     );
 };
 
