@@ -1,5 +1,6 @@
 import { Button } from '@material-ui/core';
 import React from 'react';
+import Blogs from './Blogs/Blogs';
 
 
 const Home = () => {
@@ -7,17 +8,18 @@ const Home = () => {
         <div>
             <Button variant="contained">Default</Button>
             <Button variant="contained" color="primary">
-            Primary
+                Primary
             </Button>
             <Button variant="contained" color="secondary">
-            Secondary
+                Secondary
             </Button>
             <Button variant="contained" disabled>
-            Disabled
+                Disabled
             </Button>
             <Button variant="contained" color="primary" href="#contained-buttons">
-            Link
+                Link
             </Button>
+            <Blogs></Blogs>
         </div>
     );
 };
